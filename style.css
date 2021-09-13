@@ -1,0 +1,154 @@
+/* h1{
+    color:red;
+  } */
+
+  body{
+    background-color:#f3f3e4;
+    color:#555555;
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:400;
+    font-size: smaller; */
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+  }
+  a{
+    text-decoration: none;color:#000;
+  }
+  /* a:hover{
+    color:red;
+  } */
+  a:active{
+    color:green;
+  }
+  /* a:visited{
+    color: aqua;
+  } */
+  .box-1{
+    background-color:#333;
+    color:#fff;
+    /* border-right: 5px red solid;
+    border-left:5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+    border: 5px red solid;
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style: dotted;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top:20px;
+    margin:20px 0;
+  }
+  .box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+    text-decoration: underline;
+  }
+  .box-2{
+    border:3px dotted black;
+    padding:10px;
+    margin: 20px 0;
+
+
+  }
+  .categories{
+    border:1px solid black;
+    padding:10px;
+    border-radius:15px;
+
+  }
+  .categories h2{
+    text-align:center
+  }
+  .categories ul{
+    padding: 0;
+    list-style:none;
+  }
+  .categories li{
+    padding-bottom: 6px;
+    border-bottom:dotted 1px #333;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+.my-form{
+  padding: 20px;
+}
+.my-form .form-group{
+  padding-bottom:15px;
+}
+.my-form label{
+display:block;
+}
+.my-form input[type="text"],.my-form textarea{
+  padding:8px;
+  width:100%;
+}
+.my-form input[type="submit"]{
+  background-color:#333;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+
+.reg-button{
+  background-color:#000;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+.reg-button:hover{
+  color: red;
+}
+.my-form input[type="submit"]:hover{
+  color:red;
+}
+.block{
+  float: left;
+  width:33.3%;
+  border:1px solid #ccc;
+  padding:10px;
+  box-sizing:border-box;
+}
+#main-block{
+  float:left;
+  width:70%;
+}
+#sidebar{
+  float:right;
+  width:30%;
+  background-color:#333;
+  color:#fff;padding:15px;
+  box-sizing:border-box;
+}
+.p-box{
+  border:1px solid black;
+  width:800px;
+  height:500px;
+  margin-top:30px;
+  position:relative !important;
+  /* top:50%; */
+  top:215px;
+  background-image: url('http://www.latestseotutorial.com/wp-content/uploads/2016/12/from-hello-1024x768.jpg');
+  background-position: 100px 200px;
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+.title1 {
+  position:absolute;
+  top:100px;
+  left:200px;
+}
+.title2 {
+  position:absolute;
+  bottom:20px;
+  right:100px;
+}
